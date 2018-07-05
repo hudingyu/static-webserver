@@ -1,6 +1,6 @@
 {
     "port": 8082,
-    "root": "/Users/dianping/Developer/dist",
+    "root": "/root/home/dist",
     "indexPage": "index.html",
     "cacheControl": true,
     "etag": true,
