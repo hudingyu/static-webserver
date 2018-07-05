@@ -1,0 +1,11 @@
+{
+    "port": 8082,
+    "root": "/Users/dianping/Developer/dist",
+    "indexPage": "index.html",
+    "cacheControl": true,
+    "etag": true,
+    "expire": true,
+    "lastModified": true,
+    "maxAge": 500,
+    "zipMatch": "^\\.(css|js|html)$"
+}

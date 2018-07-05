@@ -1,9 +1,10 @@
-_Store
+i_Store
 node_modules/
 /dist/
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
+yarn-error.logc*
+public/
 
 # Editor directories and files
 .idea
