@@ -1,3 +1,11 @@
+/**
+ * @fileOverview
+ * @name server.js
+ * @author hudingyu <hudingyu@meituan.com>
+ * @date 2018/7/1
+ * @license MIT
+ */
+
 const http = require('http');
 const path = require('path');
 const fs = require('fs');
@@ -202,7 +210,7 @@ class StaticServer {
     }
 
     routeHandler(pathName, req, res) {
-        if (pathName.indexOf('article/') >= 0 || pathName.indexOf('homepage') >= 0) {
+        if (pathName.indexOf('project') >= 0 || pathName.indexOf('api') >= 0) {
             this.respondFile(null, path.join(this.root, this.indexPage), req, res);
         } else {
             fs.stat(pathName, (err, stat) => {
