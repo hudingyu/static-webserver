@@ -210,7 +210,7 @@ class StaticServer {
     }
 
     routeHandler(pathName, req, res) {
-        if (pathName.indexOf('project') >= 0 || pathName.indexOf('api') >= 0) {
+        if (pathName.indexOf('article/') >= 0 || pathName.indexOf('homepage') >= 0) {
             this.respondFile(null, path.join(this.root, this.indexPage), req, res);
         } else {
             fs.stat(pathName, (err, stat) => {
